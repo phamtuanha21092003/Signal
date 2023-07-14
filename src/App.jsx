@@ -1,4 +1,4 @@
-import { Content, Introduction, Navbar } from "./components"
+import { Content, Footer, Introduction, Navbar } from "./components"
 
 function App() {
     return (
@@ -6,6 +6,7 @@ function App() {
             <Navbar />
             <Introduction />
             <Content />
+            <Footer />
         </>
     )
 }

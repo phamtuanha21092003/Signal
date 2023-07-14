@@ -16,3 +16,33 @@ export const navBar = [
         ),
     },
 ]
+
+export const footerLinks = [
+    {
+        title: "Organization",
+        links: [
+            { name: "Donate" },
+            { name: "Careers" },
+            { name: "Blog" },
+            { name: "Terms & Privacy Policy" },
+        ],
+    },
+    {
+        title: "Download",
+        links: [
+            { name: "Android" },
+            { name: "iPhone & iPad" },
+            { name: "Window" },
+            { name: "Mac" },
+            { name: "Linux" },
+        ],
+    },
+    {
+        title: "Social",
+        links: [{ name: "GitHub" }, { name: "Twitter" }, { name: "Instagram" }],
+    },
+    {
+        title: "Help",
+        links: [{ name: "Support Center" }, { name: "Community" }],
+    },
+]
