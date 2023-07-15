@@ -1,6 +1,7 @@
 {
     "name": "signal",
     "private": true,
+    "homepage": "https://phamtuanha21092003.github.io/Signal/",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
