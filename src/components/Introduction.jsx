@@ -3,9 +3,9 @@ import phone2 from "../assets/phone2.png"
 
 export default function Introduction() {
     return (
-        <section className="bg-[#9dbbf8] flex md:max-h-[680px] max-h-[760px] px-[1.5rem] pb-[3rem] pt-[1.5rem] md:pt-[6rem]">
-            <div className="relative py-10">
-                <div className="flex flex-col w-2/5 pl-24 pb-28 flex-1">
+        <section className="bg-[#9dbbf8] flex md:max-h-[680px] max-h-[760px] px-[1.5rem] pb-[3rem] pt-0 md:pt-[8rem]">
+            <div className="relative md:pt-10 sm:pb-32 pt-0 pb-[1000px]">
+                <div className="flex flex-col md:w-2/5 md:pl-24 pb-28 flex-1">
                     <h1 className="font-[790] text-[60px] leading-[64px] text-[#1b1b1b] mt-[60px]">
                         Nói chuyện Tự do
                     </h1>
@@ -22,12 +22,12 @@ export default function Introduction() {
                     <img
                         src={phone1}
                         alt="điện thoại"
-                        className="md:w-[320px] w-[218px] h-auto max-w-full mt-[46px] rotate-[22.5deg] absolute bottom-[-125px] left-[40%]"
+                        className="md:w-[320px] w-[218px] h-auto max-w-full mt-[46px] rotate-[22.5deg] absolute sm:top-[-55px] sm:left-[40%] top-[380px] left-[-10%]"
                     />
                     <img
                         src={phone2}
                         alt="điện thoại"
-                        className="md:w-[320px] w-[218px] h-auto max-w-full rotate-[22.5deg] absolute bottom-[-30px] left-[62.5%]"
+                        className="md:w-[320px] w-[218px] h-auto max-w-full rotate-[22.5deg] absolute sm:top-[-100px] sm:left-[62.5%] top-[330px] left-[44.5%]"
                     />
                 </div>
             </div>
